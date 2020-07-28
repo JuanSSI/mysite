@@ -1,0 +1,168 @@
+body{
+  margin:0;
+  text-align: center;
+  background-color:  #E8E4E1;
+  font-family:'Jura', sans-serif;
+  }
+
+h1{
+  margin: 35px auto 0 auto;
+  font-family:'Kelly Slab', cursive;
+  font-size: 4.5rem;
+  color: #3F3F44;
+  }
+
+h2{
+  font-family:'Nixie One', cursive;
+  font-size: 2.5rem;
+  font-weight: normal;
+  color: #3F3F44;
+  }
+
+h3{
+  font-family: 'Nixie One', cursive;
+  color: #11999E;
+}
+
+hr{
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #7d5a5a;
+  border-width: 6px;
+  width: 10%;
+}
+
+a{
+  color:#11999E;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #2bc4ad;
+}
+
+p{
+  line-height: 2;
+}
+
+.moreinfo{
+  margin-top: 5px;
+  font-family:'Nixie One', cursive;
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.info {
+  text-decoration: underline;
+}
+
+
+.profile{
+  margin-bottom: 50px;
+}
+
+.me{
+  width: 40%;
+  margin: auto;
+}
+
+.top-container{
+  background-color: #E8E4E1;
+  padding-top: 100px;
+  position: relative;
+}
+
+.first-cloud{
+  position: absolute;
+  right: 150px;
+  top: 20px;
+}
+
+.second-cloud{
+  position:absolute;
+  left: 150px;
+  bottom:90px;
+}
+
+.mountain{
+  width: 220px;
+  height: 150px;
+}
+.myprofileimage{
+  width: 200px;
+  height: 200px;
+}
+
+.imageskill{
+  width: 120px;
+  height: 120px;
+  float: left;
+  margin-right: 30px;
+  }
+
+.imagedive{
+  width: 120px;
+  height: 150px;
+  float: right;
+  margin-left: 30px;
+}
+
+.middle-container{
+  background-color: #E8E4E1;
+  padding-top: 60px;
+  margin-bottom: 40px;
+}
+
+.skill-row{
+  margin-bottom: 50px;
+  margin-top: 50px;
+  display: inline-block;
+  width: 50%;
+  text-align: left;
+  }
+
+.bottom-container{
+  background-color: #AACDBE;
+}
+
+.contactme{
+  width: 50%;
+  margin:40px auto 40px;
+  padding: 0;
+  }
+
+.footer-link{
+  margin: auto 10px auto 10px;
+  color:#11999E;
+  font-size: 20px;
+
+}
+
+.mysign{
+  color: black;
+  font-size: 0.85rem;
+  margin-bottom: 0;
+}
+
+.btn {
+	box-shadow: 0px 0px 0px 2px #211c66;
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	background-color:#599bb3;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:'Nixie One', cursive;
+	font-size:19px;
+	padding:12px 25px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	background-color:#408c99;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
